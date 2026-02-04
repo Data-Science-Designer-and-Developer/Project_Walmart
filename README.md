@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-````markdown
-=======
->>>>>>> 6135757 (Update README.md: final bulletproof CDSD version)
 # 🏪 Walmart Weekly Sales Prediction
 **CDSD Certification Project — Linear & Regularized Regression**
 
@@ -122,5 +118,3 @@ jupyter notebook
 
 **Dreipfelt** — CDSD Data Science Certification Candidate
 GitHub: [https://github.com/Dreipfelt](https://github.com/Dreipfelt)
-=======
->>>>>>> 6135757 (Update README.md: final bulletproof CDSD version)
