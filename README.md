@@ -1,15 +1,3 @@
-Parfait ! 🚀 Voici la **version finale “GitHub-ready”** pour ton README, **bulletproof CDSD**, avec :
-
-* Markdown clair et lisible
-* Tableaux stylés pour les modèles et business insights
-* Sections collapsibles pour ne pas saturer visuellement
-* Emoticônes légères pour le jury (professionnel mais friendly)
-* Aligné avec ton notebook et production pipeline
-
-Tu peux **remplacer entièrement ton `README.md`** par ça.
-
----
-
 ````markdown
 # 🏪 Walmart Weekly Sales Prediction
 **CDSD Certification Project — Linear & Regularized Regression**
