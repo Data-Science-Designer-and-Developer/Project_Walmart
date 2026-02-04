@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ````markdown
+=======
+>>>>>>> 6135757 (Update README.md: final bulletproof CDSD version)
 # 🏪 Walmart Weekly Sales Prediction
 **CDSD Certification Project — Linear & Regularized Regression**
 
@@ -9,7 +12,7 @@
 
 **Objective:** Predict weekly sales for 45 Walmart stores to optimize inventory, marketing campaigns, and minimize overfitting.  
 
-**Target KPI:** R² ≥ 90% on unseen data.  
+**Target KPI:** R² ≥ 90% on unseen data  
 
 **Dataset:**  
 - 6,435 weekly records, 45 stores, 7 features + temporal variables  
@@ -23,7 +26,7 @@
 - Target leakage fully prevented  
 
 **Models Evaluated:** Linear Regression, Ridge (α=0.01), Lasso (α=500)  
-- Validation: Train/Test split + 5-fold CV
+**Validation:** Train/Test split + 5-fold CV
 
 </details>
 
@@ -70,7 +73,7 @@
 - ColumnTransformer + GridSearchCV  
 - Pipeline export: `preprocessor.pkl`, `lasso_model.pkl`  
 - FastAPI endpoint: `POST /predict_sales` → store-specific weekly forecast  
-- Docker/AWS Lambda ready (<100ms inference)  
+- Docker / AWS Lambda ready (<100ms inference)  
 - Drift monitoring: retrain automatically if R² < 90%
 
 </details>
@@ -95,10 +98,16 @@
 <summary>🚀 Quick Start</summary>
 
 ```bash
+# Clone the repository
 git clone https://github.com/Data-Science-Designer-and-Developer/Project_Walmart.git
 cd Project_Walmart
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the notebook
 jupyter notebook
+<<<<<<< HEAD
 ````
 
 1. Run the notebook sequentially
@@ -113,3 +122,5 @@ jupyter notebook
 
 **Dreipfelt** — CDSD Data Science Certification Candidate
 GitHub: [https://github.com/Dreipfelt](https://github.com/Dreipfelt)
+=======
+>>>>>>> 6135757 (Update README.md: final bulletproof CDSD version)
